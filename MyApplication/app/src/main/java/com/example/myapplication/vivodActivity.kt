@@ -3,13 +3,26 @@ package com.example.myapplication
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
 class vivodActivity : AppCompatActivity() {
     val Spis : MutableList<Spisok> = mutableListOf()
+    private lateinit var rv: RecyclerView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+      Spis.addAll(Spisok().)
+
+
+
+
+
+
+
+
+
+
         setContentView(R.layout.activity_vivod)
         getSpisok()
         Spis.forEach{

@@ -7,4 +7,5 @@
     <string name="time">время</string>
     <string name="data">Дата</string>
     <string name="dobav">Добавить</string>
+    <string name="textview">TextView</string>
 </resources>
