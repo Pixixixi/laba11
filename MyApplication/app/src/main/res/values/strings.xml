@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="TodoList">Список дел</string>
+    <string name="dataOutput">Вывод тута</string>
+    <string name="dataInput">Ввод тута</string>
+    <string name="delo">Какое дело</string>
+    <string name="time">время</string>
+    <string name="data">Дата</string>
+    <string name="dobav">Добавить</string>
+</resources>
